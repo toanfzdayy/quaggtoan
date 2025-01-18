@@ -225,14 +225,9 @@ body {
     }
 }
 
-#.page-bg {
-  .header {
-	width: 100%;
-	height: 100vh;
-	background-image: url(https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2022/12/background-tet2.jpg);
-	}
- #   background-image: url(https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2022/12/background-tet2.jpg);
-
+.page-bg {
+    background: #292929;
+}
 
 .page-title {
     font-size: 18px;
@@ -288,7 +283,7 @@ body {
     border: none;
     outline: none;
     color: #fff;
-    background: #112;
+    background: #111;
     cursor: pointer;
     position: relative;
     z-index: 0;
