@@ -78,8 +78,8 @@ body{
 }
 
 .player-img img.active{
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
     transition: all 0.5s;
     opacity: 1;
 }
