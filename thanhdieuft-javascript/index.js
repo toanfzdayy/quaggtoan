@@ -36,7 +36,17 @@ function tick() {
 	}  window.requestAnimationFrame(tick);
 
 }
-
+			var audio = new Audio('https://files.catbox.moe/ff6y2l.mp3');
+      
+			audio.oncanplaythrough = function(){
+			audio.play();
+			}
+			
+			audio.loop = true;
+			
+			audio.onended = function(){
+			audio.play();
+			}
 tick();
 
 //▬▬▬▬▬▬▬▬▬▬
