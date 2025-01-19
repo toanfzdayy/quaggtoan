@@ -60,7 +60,7 @@ body{
     left: 130px;
 }
 
-/* .player-img img{
+.player-img img{
     object-fit: cover;
     border-radius: 20px;
     height: 0;
@@ -71,7 +71,7 @@ body{
 
 .player-img:hover img{
     box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
-} */
+}
 
 .player-img img.active{
     width: 100%;
